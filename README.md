@@ -54,10 +54,10 @@ cd ..
 
 The evaluation server uses **eight FireCuda NVMe drives** in a RAID 0 array. Identify all eight drives before running these commands. **Do not include an Intel NVMe drive.** Stopping an existing array, creating a new array, and formatting it can destroy data.
 
-The drive identification script is located in the separate ScaleSwap repository:
+The drive identification script is located in the separate ScaleCache repository:
 
 ```bash
-cd /path/to/ScaleSwap/scripts
+cd [ScaleCache Directory]/scripts
 ./check_model
 ```
 
